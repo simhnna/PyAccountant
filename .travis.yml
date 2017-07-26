@@ -2,6 +2,9 @@ sudo: false
 language: python
 python:
   - 3.6
+branches:
+  except:
+  - heroku
 notifications:
   on_success: never
   on_failure: never
